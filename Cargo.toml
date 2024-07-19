@@ -1,0 +1,8 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8" # 这是我们将引用的外部 crate
+service = { path = "./service" } # 这是我们自定义的 crate
